@@ -1,2 +1,2 @@
 # my docker workbook
-my docker codespace for data engineering workshop
+my docker worklog for data ingestion pipeline from a public dataset into postgres!

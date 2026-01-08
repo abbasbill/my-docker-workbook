@@ -1,7 +1,7 @@
 # my docker workbook
 This project highlight the worklog of building our data ingestion pipeline using docker, postgres and data from a public dataset!
 
-# Docker and PostgreSQL: Data Engineering Workshop
+# Docker and PostgreSQL: Data Engineering Project
 
 * Code: [pipeline/](pipeline/)
 

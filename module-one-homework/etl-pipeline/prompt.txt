@@ -1,0 +1,19 @@
+docker run -it --rm \
+  --network=module_one-homework_default \
+  migrate:v001 \
+  --file='./green_tripdata_2025-11.parquet' \
+  --table=green_tripdata_2025-11 \
+  --database=ny_taxi \
+  --user=postgres \
+  --password=postgres \
+  --host=db
+
+  docker run -it --rm \
+  --network=module_one-homework_default \
+  migrate:v001 \
+  --file=./taxi_zone_lookup.csv \
+  --table=taxi_zone_lookup \
+  --database=ny_taxi \
+  --user=postgres \
+  --password=postgres \
+  --host=db

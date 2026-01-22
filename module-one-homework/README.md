@@ -1,4 +1,4 @@
-# Module_one-Homework
+# Homework
 Data-engineering-zoomcamp module 1 homework: Docker &amp; SQL
 
 ## Question 1. Understanding Docker images

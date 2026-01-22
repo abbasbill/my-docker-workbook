@@ -8,16 +8,16 @@ terraform {
 }
 
 provider "google" {
-
-  project = "de-project-484923"
-  region  = "us-central1"
+  credentials = file(var.credentials)
+  project = var.project
+  region  = var.region
 }
 
 
 
 resource "google_storage_bucket" "data-lake-bucket" {
-  name     = "de-project-484923-bucket"
-  location = "US"
+  name     = var.gcs_bucket_name
+  location = var.location
 
   # Optional, but recommended settings:
   storage_class               = "STANDARD"
@@ -40,6 +40,6 @@ resource "google_storage_bucket" "data-lake-bucket" {
 }
 
 
-resource "google_bigquery_dataset" "ny-taxi-dataset" {
-  dataset_id = "demo_dataset"
+resource "google_bigquery_dataset" "ny-dataset" {
+  dataset_id = var.bq_dataset_name
 }

@@ -208,3 +208,4 @@ __marimo__/
 workflow-orchestration/.env_encoded
 
 *.json
+.env_encoded

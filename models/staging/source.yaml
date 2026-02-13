@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "raw data sources for NYC taxi rides"
+    database: kestra-orchestration-486210
+    schema: bbsbllmn
+    tables: 
+      - name: green_tripdata
+      - name: yellow_tripdata

@@ -1,0 +1,82 @@
+user:
+  outputs:
+    default:
+      keyfile_json:
+        auth_provider_x509_cert_url: https://www.googleapis.com/oauth2/v1/certs
+        auth_uri: https://accounts.google.com/o/oauth2/auth
+        client_email: bbsbllmn-dbt-service-account@kestra-orchestration-486210.iam.gserviceaccount.com
+        client_id: '112062049100524425615'
+        client_x509_cert_url: https://www.googleapis.com/robot/v1/metadata/x509/bbsbllmn-dbt-service-account%40kestra-orchestration-486210.iam.gserviceaccount.com
+        private_key: '-----BEGIN PRIVATE KEY-----
+
+          MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDDvs1kYQWBvVtV
+
+          XhhvzaQ15U3LRlEybPYpjsSep+LoBkk+//kxD9RNbJvtVcAAhGeOw64ShrfD0mXs
+
+          fdld4pnIkHBF80T2Fqu3GM+99L5GzHiYrZSO7aXWgu/yWL7OMYJEn3ku7uK5PTyD
+
+          ubJfUORILH77Pnvm04CoLtCEzCt8PGatkkJUzp/6/kDkepDccLLdkaKGop37LI0y
+
+          uyT2CONdpSh+vVFRqQBOhpMWBL84CUzr8WbEd7P6GK4LLAQNta7uAfmnqMRdAM2Y
+
+          mvk0Uv0fdDk6sgdLtIFo/hiZL+kuwbIq3I9ssuzZpYWnt8DkJP3S+Cggs0bg1iwA
+
+          Ka2eqY9VAgMBAAECggEATUPqdR3q+4xQGgFbaf5lPDT4IS3vbRUfkcXeDLY+VdHt
+
+          ZaXKqjgSWEFvxx4a/NlGu064Tm3I6c4KF3CRtYJ1q3qAJsxgwzatr0dm8RdDaFTb
+
+          oYCa7FQYKvViW2n2XxOh1Q6R2hnHetEWKvTI2ODoSyjtMqU2aSXBWiGog1LIM3A+
+
+          Saajm92hMvVDrmH9gUn+88YnvdnaWnm/Mz9wEZF8Fw3IrCMx8P4M2wSaYlTKjcNl
+
+          Clsx2nLlika+5DPA29q8vg/Phk9QlxT6HBKZW9sFzXWVqDloBQgAoBegB8E6mfKV
+
+          Oz1O0X7b+e23innq2OG1zD++0DjDzIHJe0r5AEjI/QKBgQD6me0Atsykok5msWnK
+
+          k5jRwu9LHuE2JkkGoeQi+/0B+ikcJAejvOtS0fqb4vgWPkqILI1giqPx2nPwLDpR
+
+          FM0iCUdZE/gzgKhz3uZ9lRS1vlSFCUpoP199unalNYNEhbWbwi/DO7gatF3VZHt3
+
+          TSYEm/9KpidUm1UUy5Qw+OxITwKBgQDH9lgauxRyeAXkURLQceqrYX+Z76bNlszY
+
+          4YGAxjmzzV+H2PRWvdvkR7KOXJdYDOT9KElA5yN4hnXVOdo5pCIcDRvy4YDv9R5/
+
+          GieKIo9C5EgjSZwbefCsFM/UN9UdR/cqZAS+ML7WIsT8uivROgHs+Uju5WDZWcP3
+
+          0IBEVihhGwKBgQDQB9+a7CTNtn7m+PgdVpFR8ES9U5EZZobQnqvH7u+FKKnf1nkR
+
+          D886HV2w8qWHsYYlrPZf4jdemj4MbmqqzF3Nl25HIDC2cGNmbO9h6NQcWzfGiIPg
+
+          LluS/6tmUhn6VBUCjB0iMP0QDhKnBpcH3l9lDCrNSUj1D019ydHnJXzgOQKBgQCm
+
+          j75n1bl8eBmASz/+vUUaKIafdQ5eZeSQK5cx6uwZp1KR19f/gPpvNoG3L80pHOSJ
+
+          M0uBcocLWAVC7YOnS97Vut2y/L/oISeb++8/kvX+ZCTqr+AGyxX8YQGU5kTwtQdf
+
+          Gh0RR41O1Xt8gJ8LEuSTvjpQNGTt52XjQJv3UEUmTQKBgQC3d9/XoUCO4K8yfUv6
+
+          5tff/mtE/sD0/ysXbwRw327/p5dzf/siRoLhdBQNHvaxWYtOiDSqEIT3n+RSG29v
+
+          5ey9ZJ5NiB830LflElLV1j2YAegiIpHEQHc//ZzSfzpMGmJUfHxz6ph7A0mDEWhu
+
+          T7g9/pTi9hlR3ik9/pZ+4P0iDg==
+
+          -----END PRIVATE KEY-----
+
+          '
+        private_key_id: ca76b860b1bea48746ca5b19b77c4203b5a292a1
+        project_id: kestra-orchestration-486210
+        token_uri: https://oauth2.googleapis.com/token
+        type: service_account
+      method: service-account-json
+      project: kestra-orchestration-486210
+      schema: dbt_bbsbllmn
+      scopes:
+      - https://www.googleapis.com/auth/bigquery
+      - https://www.googleapis.com/auth/cloud-platform
+      - https://www.googleapis.com/auth/drive
+      - https://www.googleapis.com/auth/userinfo.email
+      target_name: default
+      threads: 4
+      type: bigquery
+  target: default

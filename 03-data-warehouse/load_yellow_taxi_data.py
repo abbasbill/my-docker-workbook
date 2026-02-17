@@ -18,7 +18,7 @@ client = storage.Client.from_service_account_json(CREDENTIALS_FILE)
 
 
 BASE_URL = "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-"
-MONTHS = [f"{i:02d}" for i in range(1, 4)]
+MONTHS = [f"{i:02d}" for i in range(1, 7)]
 DOWNLOAD_DIR = "."
 
 CHUNK_SIZE = 8 * 1024 * 1024

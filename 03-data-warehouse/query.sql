@@ -2,7 +2,7 @@
 CREATE OR REPLACE EXTERNAL TABLE `de-project-484923.nytaxi.external_yellow_tripdata`
 OPTIONS (
   format = 'PARQUET',
-  uris = ['gs://bbsbllmn-03-bucket/yellow_tripdata_2024-*.parquet']
+  uris = ['gs://bbsbllmn-04-bucket/yellow_tripdata_2019-*.parquet']
 );
 
 -- Create a non partitioned table from external table

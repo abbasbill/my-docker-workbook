@@ -209,3 +209,5 @@ workflow-orchestration/.env_encoded
 
 *.json
 .env_encoded
+*.parquet
+*.csv.gz

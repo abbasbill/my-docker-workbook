@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "raw data sources for NYC taxi rides"
+    database: de-project-484923
+    schema: 04_bbsbllmn_db
+    tables: 
+      - name: green_tripdata
+      - name: yellow_tripdata

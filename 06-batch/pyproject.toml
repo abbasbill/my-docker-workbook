@@ -1,0 +1,14 @@
+[project]
+name = "06-batch"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pyspark",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+]

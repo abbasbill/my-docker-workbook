@@ -225,3 +225,4 @@ logs/*.log
 *.py[cod]
 duckdb.db
 y_tripdata_2025-11/
+*.csv

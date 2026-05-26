@@ -1,7 +1,8 @@
-# my docker workbook
+# NY TAXI DATA PIPELINE
 This project highlight the worklog of building our data ingestion pipeline using docker, postgres and data from a public dataset!
 
-# Docker and PostgreSQL: Data Engineering Project
+# Data Engineering Project
+## Docker & PostgreSQL
 
 * Code: [pipeline/](pipeline/)
 
